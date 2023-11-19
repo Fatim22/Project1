@@ -6,4 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".secondActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70sp"
+            android:text="@string/sign"
+            android:textAlignment="center"
+            android:textColor="#CE938F"
+            android:textSize="60sp" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70sp"
+            android:ems="10"
+            android:hint="@string/te1"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextNumberPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:ems="10"
+            android:hint="@string/ps"
+            android:inputType="numberPassword"
+            android:minHeight="48dp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/City"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:background="#CE938F"
+            android:text="Button"
+            android:textColor="#000000" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

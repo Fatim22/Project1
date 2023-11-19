@@ -13,12 +13,15 @@
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".fourthActivity"
             android:exported="false" />
         <activity
             android:name=".thirdActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> 7ef7f16 (Initial commit)
             android:name=".secondActivity"
             android:exported="false" />
         <activity
